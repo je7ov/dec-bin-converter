@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: #dfdfee;
+}
+
+body h1 {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.title {
+  font-size: 3em;
+  color: #222;
+}
+
+.topSection {
+  height: 17vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.botSection {
+  height: 83vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.converter {
+  padding: 24px;
+  border: 2px solid #222;
+  border-radius: 12px;
+  width: 450px;
+  height: 300px;
+  text-align: left;
+}
+
+.converter form {
+  display: flex;
+  flex-direction: column;
+}
+
+.converter input {
+  margin-top: 4px;
+}
+
+.converter label {
+  margin-top: 24px;
+  margin-left: 4px;
+}
+
+#btn_convert {
+  width: 100px;
+  margin-top: 24px;
+  align-self: flex-end;
+}
